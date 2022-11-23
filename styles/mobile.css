@@ -999,7 +999,7 @@ from {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    width: 300px;
 }
 
       .field {
@@ -1008,7 +1008,7 @@ from {
       }
     
       textarea {
-        width: 499px;
+        width: 300px;
         height: 150px;
       }
       
