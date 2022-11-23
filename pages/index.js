@@ -40,10 +40,11 @@ export default function Home() {
         {/* <Services/> */}
         <Team/>
         {/* <Community/> */}
-        
+           <Roadmap />
+      {/* <Footer/> */}
       </main>
-      <Roadmap />
-      <Footer/>
+ 
+   
      
     </div>
   )
