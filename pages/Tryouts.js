@@ -109,7 +109,7 @@ export default function CoverJam() {
       <div className='sectionMargin'></div>
       <a href="/">
       <img className='mheader-logo2' src='/imgs/logo.png' alt="logo"/></a>
-        <img className="logo" src='/imgs/MetaLogo.png' alt=""/>
+        <img className="logo5" src='/imgs/MetaLogo.png' alt=""/>
 
         {/* <p><code> Artist : JleeWalls </code><br/>
       <code> Producer : JleeWalls </code><br/>
