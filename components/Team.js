@@ -20,24 +20,24 @@ const Team = () => {
               <img className="imgpfp" src="../imgs/free.png" alt="team-1" />
             </figure>
             <h4>Davaren Hightower</h4>
-            <span>Founder</span>
+            <span>Founder / CEO</span>
           </a>
-          <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
+          {/* <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p> */}
         </div>
       </div>
-      {/* <div class="team-card">
+      <div class="team-card">
         <div>
           <a href="#">
             <figure>
-              <img className="imgpfp" src="../imgs/free.png" alt="team-2" />
+              <img className="imgpfp" src="../imgs/jlee.png" alt="team-2" />
             </figure>
-            <h4>Name #2</h4>
-            <span>Position</span>
+            <h4>Devin Dourisseau</h4>
+            <span>Co-Founder</span>
           </a>
-          <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
+          {/* <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p> */}
         </div>
 
-      </div> */}
+      </div>
       {/* <div class="team-card">
         <div>
           <a href="#">

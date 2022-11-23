@@ -919,21 +919,7 @@
     }
   
   
-  
-  
-    #our-team-content{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 80%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        gap: 50px;
-        
-      }
+
       #our-team-content div div{
         border-radius: 20px;
         background-color:transparent;
@@ -953,7 +939,7 @@
         text-decoration:none;
       }
       #our-team-content div a figure img{
-        width:100%;
+        width:60%;
         
       }
       #our-team-content div div a h4{
