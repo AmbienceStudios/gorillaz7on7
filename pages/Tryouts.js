@@ -71,8 +71,8 @@ export default function CoverJam() {
   return (
     <div className="CoverJam">
       <Head>
-        <title>The Metaverse Song Cover Jam | D3G3N </title>
-        <meta name="description" content="Using blockchain technology, we will showcase YOUR ORIGINAL WORK as the Cover Art of the OFFICIAL MINT release of THE METAVERSE SONG!" />
+        <title>Tryouts | Gorillaz 7on7</title>
+        <meta name="description" content="December 17th!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
