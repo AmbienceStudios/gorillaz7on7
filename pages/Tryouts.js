@@ -29,7 +29,7 @@ export default function CoverJam() {
 
    useEffect(() => {
 
-    const target = new Date("11/13/2022 00:00:00")
+    const target = new Date("12/17/2022 00:00:00")
     const subTarget = new Date("10/20/2022 12:00:00")
     // const target = new Date("10/18/2022 20:00:00")
       const interval = setInterval(() => {
@@ -87,13 +87,13 @@ export default function CoverJam() {
 
       <div class="navbar-Links">
             
-        
+{/*         
             <a href="#Info">Information</a>
             <a href="#Theme" >Theme</a>
             <a href="#GetStarted">Get Started</a>
             <a href="#Rules">Rules</a>
             <a href="#ArtSpecs" >Art Specs</a>
-            <a href="#Submission">Submit Artwork</a>
+            <a href="#Submission">Submit Artwork</a> */}
      
             </div>
 
@@ -141,16 +141,16 @@ export default function CoverJam() {
         </div>
 
         )}
-<div className='sectionMargin'></div>
+{/* <div className='sectionMargin'></div> */}
 {/* <a  id="Info" href="#Submission" ><button> Start Submission</button></a> */}
 
-<div  className='sectionMargin'></div>
+{/* <div  className='sectionMargin'></div> */}
 
-        <img  className="logo" src='/imgs/Info.png' alt=""/>
+        {/* <img  className="logo" src='/imgs/Info.png' alt=""/> */}
 
 
 
-        <p id="Theme"  className="Details"> 
+        {/* <p id="Theme"  className="Details"> 
         <code>Presented by D3G3N</code> <br/> <br/>
         GM & Hello everyone! We are so happy and grateful that you have chosen to collaborate with us! <br/> <br/>
 
@@ -164,18 +164,18 @@ Since earlier this year, morale in the 1/1 artists space has declined, and the b
 
          
         
-        </p>
+        </p> */}
 
-        <img className="logo" src='/imgs/THEME.png' alt=""/>
+        {/* <img className="logo" src='/imgs/THEME.png' alt=""/> */}
 
-        <p id="GetStarted" className="Details"> 
+        {/* <p id="GetStarted" className="Details"> 
         <code>ART OF THE METAVERSE</code> <br/> <br/>
         Bring your art to life by creating a world that highlights it<br/> <br/>
-    </p>
-        <img  className="logo" src='/imgs/START.png' alt=""/>
+    </p> */}
+        {/* <img  className="logo" src='/imgs/START.png' alt=""/> */}
 
 
-      <p  id="Rules" className="Details">
+      {/* <p  id="Rules" className="Details">
       Using blockchain technology, we will showcase YOUR ORIGINAL WORK as the Cover Art of the OFFICIAL MINT release of THE METAVERSE SONG! 
 <br/> <br/>
 
@@ -183,50 +183,43 @@ Each cover art will have a &apos;The Metaverse Song&apos; title, and the Metaver
 
 A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of 1 Artist Submissions from our Twitter NFT Community! <br/> <br/>
 
-      </p>
+      </p> */}
 
 
 
-      <img  className="logo" src='/imgs/rules.png' alt=""/>
+      {/* <img  className="logo" src='/imgs/rules.png' alt=""/> */}
 
 
 <p className="Details">
 
-<strong>The submissions open:</strong> <br/> October 20th at 12:00 PM MST <br/> <br/>
-<strong>The submissions closing:</strong> <br/> October 31st at 12:00 PM MST <br/> <br/>
-
-<strong>The verification process will be from:</strong><br/>
- November 1st - November 15th 2022<br/> <br/>
-
-
- You will need to provide an Artist Wallet to be able to be added to Smart Contracts for the Metaverse Song Royalties, the airdrop of your collaboration participation token to connect to our artist support and spotlight platform, and other future perks along the roadmap, which will be revealed to you after we have closed the submission process and validated the submitted artworks etc. <br/><br/> ** please submit the public address 0x12345678..1110 <br/> not your ens domain name **<br/> <br/>
-
+<strong>Tryouts open:</strong> <br/> December 17th at 12:00 PM MST <br/> <br/>
+{/* <strong>The submissions closing:</strong> <br/> October 31st at 12:00 PM MST <br/> <br/> */}
 
 </p>
 
-<h2>&#9989; Allowed</h2>
-<ul className='list'>
+{/* <h2>&#9989; Allowed</h2> */}
+{/* <ul className='list'>
   <li className='list'> &#9989; Hand-Drawn - Polished Version </li>
   <li className='list'> &#9989; Digital Illustration - Polished Version  </li>
   <li className='list'> &#9989; 2D Renderings  </li>
   <li className='list'> &#9989; 3D Renderings  </li>
   <li className='list'> &#9989; AI-Generated Artwork will be allowed in this submission IF you have permissions from the platform/site used to create the AI Artworks,which must be provided, OR your AI image has been manually polished by YOU, the ARTIST</li>
-</ul>
+</ul> */}
 
-<h2>&#9940; Not Allowed</h2>
-<ul  id="ArtSpecs" className='list'>
+{/* <h2>&#9940; Not Allowed</h2> */}
+{/* <ul  id="ArtSpecs" className='list'>
   <li className='list'> &#9940; Copyrighted Images </li>
   <li className='list'> &#9940; No Logos or other company related branding in submission  </li>
   <li className='list'> &#9940; 3D assets purchased from 3D websites without credits </li>
   <li className='list'> &#9940;  Anything derogatory towards any race, gender, culture, etc.. </li>
   <li className='list'> &#9940;  Artworks that have already been minted onto the Blockchain, or posted and currently visible on any social platforms that will come up in a reverse image search.  </li>
 
-</ul>
+</ul> */}
 
-<div className='sectionMargin'></div>
+{/* <div className='sectionMargin'></div> */}
 
 
-<div className='sectionMargin'></div>
+{/* <div className='sectionMargin'></div> */}
 
 
 
@@ -234,13 +227,13 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
        
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="#Top"
         >
         Top of Page
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
