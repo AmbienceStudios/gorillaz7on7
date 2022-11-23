@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div id="scrollbar-wrapper">
       <Head>
-      <title>Gorillaz 7on7 </title>
+      <title>Gorillaz Organization</title>
         <meta name="description" content="Helping student athletes further their education and athletics to the next level." />
         <link rel="icon" href="/favicon.ico" />
 
