@@ -99,7 +99,7 @@ export default function CoverJam() {
 
   </div>
     </div>
-    <button  class="navBar-ConnectWalletBase">Connect</button>
+    {/* <button  class="navBar-ConnectWalletBase">Connect</button> */}
 
   </nav>
 
