@@ -197,7 +197,7 @@
       border-radius: 5px;
       height: 50%;
       margin: 25%;
-      width: 50%;
+      width: 100%;
     }
     
     .sleep {
@@ -205,7 +205,7 @@
       border-radius: 50%;
       height: 50%;
       margin: 25%;
-      width: 50%;
+      width: 100%;
     }
     
     .meditation {
@@ -428,7 +428,7 @@
     .history-section h1 {
     font-size: 64px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin: 50px auto;
     
     }
@@ -439,7 +439,7 @@
         font-size: 18px;
         text-align: center;
         color: #ddd;
-        width: 50%;
+        width: 100%;
         margin: auto;
         line-height: 26px;
         }
@@ -448,7 +448,7 @@
           font-size: 15px;
           text-align: center;
           color: #ddd;
-          width: 50%;
+          width: 100%;
           margin: auto;
           text-transform: uppercase;
           letter-spacing: 5px;
@@ -824,7 +824,7 @@
     }
     
     .image-section {
-      width: 50%;
+      width: 100%;
       padding: 60px;
     }
     
