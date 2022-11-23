@@ -26,7 +26,7 @@ const About = () => {
       </div>
       </div>
       <div className='partner-section'>
-      <h5 className='center'> 
+      {/* <h5 className='center'> 
          Our Partners
 
       </h5>
@@ -47,9 +47,8 @@ const About = () => {
         <img src="../imgs/hashlips.png" alt="hashlips" />
         </div></a>
       
-        {/* <div className='tiles'><br/></div>
-        <div className='tiles'><br/></div> */}
-      </div>
+ 
+      </div> */}
 
 
       </div>
