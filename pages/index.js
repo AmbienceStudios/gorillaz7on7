@@ -37,12 +37,12 @@ export default function Home() {
         <About/>
         <Experiences/>
         {/* <Events/> */}
-        <Services/>
+        {/* <Services/> */}
         <Team/>
         {/* <Community/> */}
-        <Roadmap />
+        
       </main>
-
+      <Roadmap />
       <Footer/>
      
     </div>

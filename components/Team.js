@@ -1,8 +1,12 @@
 const Team = () => {
   return (
 
-  <div class="team-container">
-   
+  <div class="team-container team-container2">
+      <div class="custom-shape-divider-top-1669171447">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+        </div>
    <h1>Our Instructors</h1>
             
    <h5>of the university</h5>
@@ -21,7 +25,7 @@ const Team = () => {
           <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
         </div>
       </div>
-      <div class="team-card">
+      {/* <div class="team-card">
         <div>
           <a href="#">
             <figure>
@@ -33,8 +37,8 @@ const Team = () => {
           <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
         </div>
 
-      </div>
-      <div class="team-card">
+      </div> */}
+      {/* <div class="team-card">
         <div>
           <a href="#">
             <figure>
@@ -45,8 +49,8 @@ const Team = () => {
           </a>
           <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
         </div>
-      </div>
-      <div class="team-card">
+      </div> */}
+      {/* <div class="team-card">
         <div>
           <a href="#">
             <figure>
@@ -58,7 +62,7 @@ const Team = () => {
           <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum…</p>
         </div>
 
-      </div>
+      </div> */}
     </section>
   </div>
 

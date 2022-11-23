@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (max-width: 768px) {
 
     .left {
       text-align: left;
@@ -274,7 +274,7 @@
     
     
     .hero-section {
-      height: 100vh;
+      height: 800px;
       background-image: url(../public/imgs/background.png);
       width: 100%;
       background-repeat: no-repeat;
@@ -299,7 +299,7 @@
       display: flex;
       flex-direction: column;
       background-image: linear-gradient(to bottom, #000000, #462225, #894136, #c86a38, #f9a02b);    
-      height: 80vh;
+      height: 1500px;
       width: 100%;
       padding: 50px 10px;
   
@@ -308,29 +308,31 @@
   
       
     .team-container {
-      display: flex;
-      flex-direction: column;
-      /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
-      /* height: 80vh; */
-      width: 100%;
-      padding: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
+        height: 1000px;
+        width: 95%;
+        padding: 0;
   
     
     }
   
         
     .team-container2 {
-      display: flex;
-      flex-direction: column;
-      /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
-      /* height: 2400px; */
-      width: 100%;
-      padding: 0;
-     
-  
+        display: flex;
+        flex-direction: column;
+        /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
+        height: 0px;
+        width: 100%;
+        padding: 0;
+       
     
     }
   
+    .contact-section {
+        /* height: 1800px; */
+    }
   
   
   
@@ -350,9 +352,9 @@
       flex-direction: column;
     
     
-      height: 100vh;
+      
       width: 100%;
-      padding: 50px 10px;
+      padding: 150px 10px;
     
     }
   
@@ -428,7 +430,7 @@
     .history-section h1 {
     font-size: 64px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin: 50px auto;
     
     }
@@ -439,7 +441,7 @@
         font-size: 18px;
         text-align: center;
         color: #ddd;
-        width: 50%;
+        width: 100%;
         margin: auto;
         line-height: 26px;
         }
@@ -477,16 +479,9 @@
         }
     
         .xp-container3 h1 {
-          font-size: 80px;
+          font-size: 40px;
           }
-          .xp-container3 h5 {
-            font-size: 20px;
-            font-weight: 500;
-            color: #dcc37e;
-            margin-left: 2rem;
-            line-height: 10px;
-            letter-spacing: 4px;
-            }
+          
   
             .xp-container3 h5 {
               font-size: 20px;
@@ -919,3 +914,138 @@
   
   
   
+    #our-team-content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+        
+      }
+      #our-team-content div div{
+        border-radius: 20px;
+        background-color:transparent;
+        transition:500ms;
+      }
+      #our-team-content div div:hover{
+        box-shadow:0px 5px 20px 2px rgba(0,0,0,0.2);
+      }
+      #our-team-content div div p{
+        padding-right:15%;
+        padding-left:15%;
+        padding-bottom:20px;
+        color:#6d747a;
+        font-size:12px;
+      }
+      #our-team-content div div a{
+        text-decoration:none;
+      }
+      #our-team-content div a figure img{
+        width:100%;
+        
+      }
+      #our-team-content div div a h4{
+        margin-bottom:5px;
+        margin-top:20px;
+        color:#00bcd4;
+        font-weight:bold;
+        font-size: 20px;
+        
+      width: 100%;
+      padding-bottom: 10px;
+      margin: 0px auto;
+      background: #FAC420;
+      background: linear-gradient(to right, #FAC420 0%, fcda29 50%, #F9A02B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+    
+      #our-team-content span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #ddd;
+      }
+    
+    
+    
+      #our-team-content div div a h4:hover,
+      #our-team-content div div a h4:focus{
+       color:#00838f;
+      }
+    
+      .team-card {
+        width: 500px;
+        
+      }
+    
+      .imgpfp {
+    
+        border-radius: 60px;
+      }
+    
+      .imgpfp:hover {
+        transform: scale(.95);
+        transition: .1s ease-in;
+        
+      }
+    
+
+      
+
+  form {
+    padding-top: 600px;
+   
+    width: 90%;
+    /* margin: auto; */
+
+  }
+
+  form h1 {
+  
+   
+    width: 100%;
+    padding-left: 40px;
+    /* margin: auto; */
+
+  }
+  form .field {
+    width: 300px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  
+
+
+  form input[type="submit"] {
+    background: #FD9638;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 20px;
+    /* padding: 13px 50px; */
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form input[type="submit"]:hover {
+    background: #313A3D;
+    color: #FD9638;
+  }
+  form input[type="submit"]:focus {
+    outline: none;
+    background: #cd6302;
+  }
