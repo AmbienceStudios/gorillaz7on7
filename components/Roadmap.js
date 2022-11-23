@@ -17,7 +17,7 @@ const Roadmap = () => {
 	      </div>
 
 	      <div class="field msg-box">
-		        <textarea id="msg" rows="4" placeholder="Your message goes here..."/>
+		        <textarea id="msg" rows="8" placeholder="Your message goes here..."/>
 		    
 	      </div>
 

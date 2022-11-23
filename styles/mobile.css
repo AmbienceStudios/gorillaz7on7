@@ -310,7 +310,7 @@
     .team-container {
         display: flex;
         flex-direction: column;
-        /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
+        /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0formf152a, #050813); */
         height: 1000px;
         width: 95%;
         padding: 0;
@@ -323,7 +323,7 @@
         display: flex;
         flex-direction: column;
         /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
-        height: 0px;
+        height:900px;
         width: 100%;
         padding: 0;
        
@@ -993,59 +993,22 @@
         transition: .1s ease-in;
         
       }
+
+from {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+      .field {
+        padding-bottom: 20px;
+       
+      }
     
-
+      textarea {
+        width: 499px;
+        height: 150px;
+      }
       
-
-  form {
-    padding-top: 600px;
-   
-    width: 90%;
-    /* margin: auto; */
-
-  }
-
-  form h1 {
-  
-   
-    width: 100%;
-    padding-left: 40px;
-    /* margin: auto; */
-
-  }
-  form .field {
-    width: 300px;
-    position: relative;
-    margin-bottom: 15px;
-  }
-
-  
-
-
-  form input[type="submit"] {
-    background: #FD9638;
-    color: white;
-    -webkit-appearance: none;
-    border: none;
-    text-transform: uppercase;
-    position: relative;
-    margin-top: 20px;
-    /* padding: 13px 50px; */
-    font-size: 1.4em;
-    letter-spacing: 0.1em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    -webkit-transition: all 333ms ease-in-out;
-    -moz-transition: all 333ms ease-in-out;
-    -o-transition: all 333ms ease-in-out;
-    -ms-transition: all 333ms ease-in-out;
-    transition: all 333ms ease-in-out;
-  }
-  form input[type="submit"]:hover {
-    background: #313A3D;
-    color: #FD9638;
-  }
-  form input[type="submit"]:focus {
-    outline: none;
-    background: #cd6302;
-  }
