@@ -82,7 +82,7 @@ export default function CoverJam() {
       <div class="navBar-NavigationMenu">
 
       <div class="navBar-LogoContainer"> 
-      <a href="/"><img class="navBar-Logo" src="/imgs/logo.png" alt="Logo" /></a>
+      <a href="/"><img class="navBar-Logo" src="/imgs/Logo.png" alt="Logo" /></a>
       </div>
 
       <div class="navbar-Links">
