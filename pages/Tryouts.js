@@ -71,7 +71,7 @@ export default function CoverJam() {
   return (
     <div className="CoverJam">
       <Head>
-        <title>Tryouts | Gorillaz 7on7</title>
+        <title>Tryouts | Gorillaz Organization</title>
         <meta name="description" content="December 17th!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
