@@ -1,0 +1,161 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  background: #000;
+}
+
+.coverEntry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.uploadCSS  {
+  /* background-color: #111111ca; */
+  border-radius: 20px;
+  padding: 20px;
+  width: auto;
+  /* border: 2px solid white; */
+  margin-bottom: 20px;
+}
+
+.uploadInput  {
+ color: white;
+ background: #14ffe9;
+}
+
+.uploadInput button {
+  background: #101014;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.formStyles p {
+ padding: 0px 20px;
+}
+
+body {
+  /* background-image: linear-gradient(120deg, #121416 0%, #ebedee 100%); */
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+
+  width: 100%;
+  margin: 50px auto;
+  background: #FAC420;
+  background: linear-gradient(to right, #FAC420 0%, fcda29 50%, #F9A02B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+  color: #ddd;
+  width: 50%;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  }
+
+
+
+
+button {
+  background-color: initial;
+  background-image: linear-gradient(to right top, #f9b21f, #f9ad22, #f9a925, #f9a428, #f9a02b);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: auto;
+  padding: 0px 50px;
+  text-transform: uppercase;
+  
+}
+
+button:hover {
+  opacity: .7;
+}
+
+
+.blur {
+  backdrop-filter: blur(15px);
+  background: #1313139f;
+
+}
+
+#myFile {
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#ArtStyle {
+  width: 50%;
+  height: 150px;
+  text-align: center;
+  font-size: 20px;
+ 
+}
+
+input:invalid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid rgb(65, 205, 82);
+  border-radius: 5px;
+  background-color: #101014;
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
