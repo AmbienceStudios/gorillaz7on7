@@ -111,11 +111,11 @@ export default function CoverJam() {
       <img className='mheader-logo2' src='/imgs/logo.png' alt="logo"/></a>
         <img className="logo" src='/imgs/MetaLogo.png' alt=""/>
 
-        <p><code> Artist : JleeWalls </code><br/>
+        {/* <p><code> Artist : JleeWalls </code><br/>
       <code> Producer : JleeWalls </code><br/>
         <code> Engineer : Freequency </code>
         <br/><br/><br/>
-        </p>
+        </p> */}
 
         {deadline ? ( <h1> Submissions Closed </h1> ) : (
 
