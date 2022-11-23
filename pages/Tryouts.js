@@ -104,7 +104,7 @@ export default function CoverJam() {
   </nav>
 
         <div id="Top"  className='sectionMargin'></div>
-      <main className={styles.main}>
+      <main >
   
       <div className='sectionMargin'></div>
       <a href="/">
