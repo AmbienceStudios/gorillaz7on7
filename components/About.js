@@ -10,7 +10,7 @@ const About = () => {
         </h1>
      
 
-          <p className='left'>In Phoenix Arizona, we are a club 7on7 organization that helps student athletes advance their education and athletic careers.
+          <p className='left'>In Phoenix Arizona, we are an organization that helps student athletes advance their education and athletic careers.
 <br/><br/>
 </p> 
 <button className='enter'>Join the university</button>
