@@ -12,6 +12,7 @@ import Services from '../components/Services'
 import Team from '../components/Team'
 import Roadmap from '../components/Roadmap'
 import styles from '../styles/Home.module.css'
+import Social from '../components/Social'
 
 
 
@@ -38,7 +39,9 @@ export default function Home() {
         <Experiences/>
         {/* <Events/> */}
         {/* <Services/> */}
+        <Social/>
         <Team/>
+        
         {/* <Community/> */}
            {/* <Roadmap /> */}
       {/* <Footer/> */}

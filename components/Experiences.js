@@ -16,10 +16,14 @@ const Experiences = () => {
       <div className='xp-tiles'>
       <a href="https://girlrillaz.net" target="_blank" rel="noreferrer">
         <div className='tiles-2 degenMetaverse2'></div></a>
+        <a href="/" target="_blank" rel="noreferrer">
+        <div className='tiles-2 gear'></div></a>
         <a href="/Tryouts" target="_blank" rel="noreferrer">
         <div className='tiles-2 metavateMetaverse2'></div></a>
-        <a href="https://www.instagram.com/gorillaz7on7/" target="_blank" rel="noreferrer">
-        <div className='tiles-2 placeholderMetaverse2'></div></a>
+        <a href="/Tryouts" target="_blank" rel="noreferrer">
+        <div className='tiles-2 basketball'></div></a>
+        <a href="/Tryouts" target="_blank" rel="noreferrer">
+        <div className='tiles-2 track'></div></a>
 
       </div>
       {/* <button> View More </button> */}

@@ -85,7 +85,7 @@
     
     .logo4 {
       padding-top: 50px;
-      width: 400px;
+      width: 600px;
     
     }
     
@@ -299,11 +299,19 @@
       display: flex;
       flex-direction: column;
       background-image: linear-gradient(to bottom, #000000, #462225, #894136, #c86a38, #f9a02b);    
-      height: 80vh;
+      height: 100vh;
       width: 100%;
-      padding: 50px 10px;
+      padding: 50px 200px;
   
     
+    }
+
+    .about-image {
+        width: 500px;
+        display: flex;
+        margin: auto;
+        border-radius: 20px;
+        border: 2px solid white;
     }
   
       
@@ -330,6 +338,9 @@
   
     
     }
+
+          
+  
   
   
   
@@ -580,8 +591,13 @@
       align-items: center;
       text-align: center;
       width: 100%;
+      gap: 2rem;
+      border-radius: 20px;
     }
     
+    .xp-tiles img {
+        border-radius: 20px;
+    }
     .tiles {
     
       height: 75px;
@@ -774,12 +790,32 @@
       background-position: center;
       background-size: 100%;
     }
+
+    .gear {
+        background-image: url(../public/imgs/gear.png);
+        background-position: center;
+        background-size: 100%;
+      }
   
     .placeholderMetaverse2 {
       background-image: url(../public/imgs/HowItStarted.png);
       background-position: center;
       background-size: 100%;
     }
+
+    
+    .basketball {
+        background-image: url(../public/imgs/basketball.png);
+        background-position: center;
+        background-size: 100%;
+      }
+
+      
+    .track {
+        background-image: url(../public/imgs/track.png);
+        background-position: center;
+        background-size: 100%;
+      }
     
     
     

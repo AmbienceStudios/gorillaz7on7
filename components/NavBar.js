@@ -92,7 +92,7 @@ const NavBar = () => {
 
     </div>
     </div> */}
-	  <a href="#Contact"><button class="navBar-ConnectWalletBase">Contact Us</button></a>
+	  {/* <a href="#Contact"><button class="navBar-ConnectWalletBase">Contact Us</button></a> */}
   </nav>
   )
 }

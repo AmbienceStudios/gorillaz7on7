@@ -13,11 +13,13 @@ const About = () => {
           <p className='left'>In Phoenix Arizona, we are an organization that helps student athletes advance their education and athletic careers.
 <br/><br/>
 </p> 
-<button className='enter'>Join the university</button>
+
+
     
       </div>
 
-    
+      <img className="about-image" src="../imgs/blitz.png" alt=""/>
+<button className='enter'>Join the university</button>
 
       <div className='image-section'>
            <div className='imageSlider'>
