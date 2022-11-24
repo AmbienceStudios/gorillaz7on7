@@ -20,9 +20,9 @@ const Experiences = () => {
         <div className='tiles-2 gear'></div></a>
         <a href="/Tryouts" target="_blank" rel="noreferrer">
         <div className='tiles-2 metavateMetaverse2'></div></a>
-        <a href="/Tryouts" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
         <div className='tiles-2 basketball'></div></a>
-        <a href="/Tryouts" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
         <div className='tiles-2 track'></div></a>
 
       </div>

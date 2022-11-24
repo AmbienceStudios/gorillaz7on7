@@ -299,9 +299,9 @@
       display: flex;
       flex-direction: column;
       background-image: linear-gradient(to bottom, #000000, #462225, #894136, #c86a38, #f9a02b);    
-      height: 100vh;
+      height: 1000px;
       width: 100%;
-      padding: 50px 200px;
+      padding: 50px 150px;
   
     
     }
