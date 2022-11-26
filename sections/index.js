@@ -7,6 +7,7 @@ import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
 import NIL from './NIL';
+import GearShop from './GearShop';
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Insights,
   Feedback,
   NIL,
+  GearShop,
 };

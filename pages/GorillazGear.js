@@ -1,28 +1,21 @@
 'use client';
 
 import { Footer, Navbar } from '../components';
-import GearShop from '../sections/GearShop';
+// eslint-disable-next-line import/named
+import { GearShop } from '../sections';
 
 const GorillazGear = () => (
   <div className="bg-black overflow-hidden">
     <Navbar />
-    {/* <Hero /> */}
     <div className="relative">
       <GearShop />
       <div className="gradient-03 z-0" />
-      {/* <Explore /> */}
     </div>
     <div className="relative">
-      {/* <GetStarted /> */}
       <div className="gradient-04 z-0" />
-      {/* <WhatsNew /> */}
     </div>
-    {/* <World /> */}
     <div className="relative">
-
-      {/* <Insights /> */}
       <div className="gradient-04 z-0" />
-      {/* <Feedback /> */}
     </div>
     <Footer />
   </div>
