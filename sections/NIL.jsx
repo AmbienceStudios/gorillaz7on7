@@ -16,7 +16,7 @@ const NIL = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="NIL Deal Complete" textStyles="text-center font-extrabold text-6xl pb-12" />
+      <TypingText title="N.I.L Deal Complete" textStyles="text-center font-extrabold text-6xl pb-12" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
