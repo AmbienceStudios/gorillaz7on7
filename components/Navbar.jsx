@@ -21,7 +21,7 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <a href="/" className="w-[200px] h-[318px] object-contain flex m-auto z-50">
+      <a href="/" className="w-[200px] h-[259px] object-contain flex m-auto z-50">
         <img src="/Logo.png" alt="logo" />
       </a>
       {/* <img
