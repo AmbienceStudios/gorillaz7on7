@@ -14,7 +14,6 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, link, }) =
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-
     <img
       src={imgUrl}
       alt="planet-04"
@@ -29,7 +28,6 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, link, }) =
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
-
           <img
             src="/headset.svg"
             alt="headset"
@@ -39,7 +37,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, link, }) =
         <p onclick={link} className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Visit Program
         </p>
-        {/* <button className='button-m h-10 w-40 bg-white m-2' onclick={link} z-50></button> */}
+       
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
