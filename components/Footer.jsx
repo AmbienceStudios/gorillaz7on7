@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            Powered by <a href='https://www.d3g3n.xyz' target="_blank" rel="noreferrer">D3G3N</a>
+            Powered by <a href="https://www.d3g3n.xyz" target="_blank" rel="noreferrer">D3G3N</a>
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 Gorillaz University. All rights reserved.
