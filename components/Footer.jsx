@@ -20,16 +20,13 @@ const Footer = () => (
           Gorillaz University
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#141414] rounded-[32px] gap-[12px]">
-         
           <span className="font-normal text-[16px] text-white">
             Contact:  602-554-8074
           </span>
         </button>
       </div>
-
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
             Powered by <a href="https://www.d3g3n.xyz" target="_blank" rel="noreferrer">D3G3N</a>
