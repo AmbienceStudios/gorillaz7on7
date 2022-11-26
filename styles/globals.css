@@ -1,88 +1,157 @@
-html,
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
   padding: 0;
   margin: 0;
-  width: 100%;
-  background: #000;
-  font-family: 'Montserrat', sans-serif;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(to right top, #1f1f1f, #232223, #292426, #2f2627, #342927);
+  filter: blur(125px);
+}
+
+.hero-gradient {
+  background-image: linear-gradient(to right top, #d1ad6b, #d5b270, #d9b775, #ddbd7a, #e1c27f, #e4c37e, #e8c47d, #ebc57c, #efc274, #f3be6d, #f7bb66, #fbb75f);
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  top: 0px;
+  right: 0px;
+
+  background-image: linear-gradient(to right top, #1f1f1f, #232223, #292426, #2f2627, #342927);
+  filter: blur(190px);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: 20%;
+  top: 5%;
+
+  background-image: linear-gradient(to right top, #1f1f1f, #232223, #292426, #2f2627, #342927);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 304px;
   height: 100vh;
+  left: 30%;
+  top: 10%;
+
+  background-image: linear-gradient(to right top, #1f1f1f, #232223, #292426, #2f2627, #342927);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
 }
 
-
-
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: white;
+.gradient-05 {
+  background-image: linear-gradient(to right top, #782727, #812d2a, #89332d, #923a30, #9b4033);
 }
 
-h1 {
-  font-size: 64px;
-  width: 100%;
-  margin: 50px auto;
-  background: #FAC420;
-  background: linear-gradient(to right, #FAC420 0%, fcda29 50%, #F9A02B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.feedback-gradient {
+  position: absolute;
+  width: 200px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+  filter: blur(175px), opacity(0);
 }
 
-h5 {
-  font-size: 15px;
-  text-align: center;
-  color: #ddd;
-  width: 100%;
-  margin: auto;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
 
+  background: #65c4fa;
+  filter: blur(150px);
 }
 
-
-
-
-button {
-  background-color: initial;
-  background-image: linear-gradient(to right top, #f9b21f, #f9ad22, #f9a925, #f9a428, #f9a02b);
-  border-radius: 10px;
-  border-style: none;
-  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
-  color: black;
-  cursor: pointer;
-  display: inline-block;
-  margin: auto;
-  max-width: 350px;
-  font-size: 16px;
-  font-weight: 700;
+.sectionmargin {
   height: 50px;
-  line-height: 50px;
- 
-  outline: 0;
+}
+
+.circle-wrap {
+  margin: 150px auto;
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #227ded;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background: #1A232E;
+  line-height: 120px;
   text-align: center;
-  transition: all .3s cubic-bezier(.05, .03, .35, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: bottom;
-  width: auto;
-  padding: 0px 50px;
-  text-transform: uppercase;
-  
+  margin-top: 14px;
+  margin-left: 14px;
+  color: white;
+  position: absolute;
+  z-index: 200;
+  font-weight: 700;
+  font-size: 2em;
 }
 
-button:hover {
-  opacity: .7;
+.button-m {
+  z-index: 1000;
 }
-
-
-.blur {
-  backdrop-filter: blur(15px);
-  background: #1313139f;
-
-}
-
-
-
-
-
-

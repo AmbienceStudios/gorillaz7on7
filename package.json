@@ -1,39 +1,30 @@
 {
-  "name": "company-site",
+  "name": "metaverse13",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.192.0",
-    "@aws-sdk/lib-storage": "^3.192.0",
-    "@aws-sdk/util-endpoints": "^3.192.0",
-    "aws-sdk": "^2.1236.0",
-    "ethers": "^5.4.7",
-    "web3": "^1.5.3",
-    "web-vitals": "^1.1.2",
-    "compass": "^0.1.1",
-    "compass-mixins": "^0.12.12",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "formidable": "^2.0.1",
-    "nanoid": "^4.0.0",
-    "next": "12.3.1",
-    "primeicons": "^6.0.1",
-    "primereact": "^8.6.1",
+    "eslint-config-next": "13.0.3",
+    "framer-motion": "^7.6.7",
+    "next": "13.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native-countdown-component": "^2.7.1",
-    "react-transition-group": "^4.4.5"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "nodemon": "^2.0.20"
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   }
 }
