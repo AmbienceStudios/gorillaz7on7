@@ -6,8 +6,8 @@ import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const NIL = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+const GorillazGear = () => (
+  <section className="relative z-10 bg-black overflow-hidden">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -23,7 +23,6 @@ const NIL = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px]  text-center text-secondary-white"
       >
         {/* <span className="font-extrabold text-white"> We</span> are an organization that helps student athletes advance their education and athletic careers based in Phoenix, Arizona */}
-
 
       </motion.p>
 
@@ -48,7 +47,6 @@ const NIL = () => (
         className="w-[700px] h-auto object-contain rounded-xl mt-[28px]"
       />
 
-
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
         src="/arrow-down.svg"
@@ -59,4 +57,4 @@ const NIL = () => (
   </section>
 );
 
-export default NIL;
+export default GorillazGear;
