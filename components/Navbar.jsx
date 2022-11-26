@@ -21,7 +21,7 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <img src="/Logo.png" alt="logo" className="w-[400px] h-[518px] sm:w-[250px] sm:h-auto object-contain flex m-auto z-50" />
+      <img herf="/" src="/Logo.png" alt="logo" className="w-[400px] h-[518px] sm:w-[250px] sm:h-auto object-contain flex m-auto z-50" />
       {/* <img
         src="/menu.svg"
         alt="menu"
