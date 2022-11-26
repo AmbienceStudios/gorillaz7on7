@@ -9,25 +9,31 @@ export const exploreWorlds = [
     id: 'world-2',
     imgUrl: '/CoverArt.png',
     title: 'Gorillaz Gear',
-    link: '/',
+    link: '/GorillazGear',
   },
   {
     id: 'world-3',
-    imgUrl: '/MetaBannerr.png',
+    imgUrl: '/football.png',
     title: '7on7 Tryouts',
-    link: '/',
+    link: '/Tryouts',
   },
   {
     id: 'world-4',
-    imgUrl: '/Fashion.png',
+    imgUrl: '/bask.png',
     title: 'Basketball',
-    link: '/',
+    link: '/Basketball',
   },
   {
     id: 'world-5',
-    imgUrl: '/SDR.png',
+    imgUrl: '/track.png',
     title: 'Track & Field',
-    link: '/',
+    link: '/Track',
+  },
+  {
+    id: 'world-6',
+    imgUrl: '/tutor.jpg',
+    title: 'Tutor',
+    link: '/Tutor',
   },
 ];
 

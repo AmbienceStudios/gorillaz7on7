@@ -20,13 +20,9 @@ const Footer = () => (
           Gorillaz University
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#141414] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
+         
           <span className="font-normal text-[16px] text-white">
-            Contact Us
+            Contact:  602-554-8074
           </span>
         </button>
       </div>
