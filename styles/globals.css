@@ -178,7 +178,7 @@ transition: .1s ease-in-out;
 }
 
 .timer-wrapper{
-    height: 200px;
+    height: 400px;
     z-index: 10000;
     display: flex;
     justify-content: center;
