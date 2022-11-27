@@ -13,6 +13,7 @@ import TryoutsView from './TryoutsView';
 import TutorView from './TutorView';
 import BasketballView from './BasketballView';
 import TrackView from './TrackView';
+import Countdown from './Countdown';
 
 export {
   Hero,
@@ -29,4 +30,5 @@ export {
   TutorView,
   BasketballView,
   TrackView,
+  Countdown,
 };

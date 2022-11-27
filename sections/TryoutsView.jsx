@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-expressions */
+/* eslint-disable func-names */
+/* eslint-disable camelcase */
 /* eslint-disable @next/next/no-img-element */
 
 'use client';
@@ -6,6 +9,7 @@ import { motion } from 'framer-motion';
 import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import Countdown from './Countdown';
 
 const TryoutsView = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -40,6 +44,15 @@ const TryoutsView = () => (
       <img src="./f-photo3.jpg" className="placeholder" />
       <img src="./f-photo2.jpg" className="placeholder" />
     </div>
+    <div className="sectionmargin" />
+    <div className="sectionmargin" />
+    <div className="sectionmargin" />
+    <img src="./tryouts.png" className="flex m-auto" />
+    <div className="sectionmargin" />
+    <Countdown />
+    <p className="text-white flex m-auto justify-center text-center text-4xl pb-12 ">6U-12U From 10AM-11:30AM</p>
+    <p className="text-white flex m-auto justify-center text-center text-4xl pb-12 ">13U-HighSchool From 11:45AM-1:45PM</p>
+    <p className="text-white flex m-auto justify-center text-center text-4xl pb-12">Millennium High School</p>
 
   </section>
 );

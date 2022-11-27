@@ -176,3 +176,62 @@ transition: .1s ease-in-out;
 .button-m {
   z-index: 1000;
 }
+
+.timer-wrapper{
+    height: 200px;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+   
+  }
+  
+  .timer-inner {
+    display: flex;
+    flex-direciton: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+  }
+  
+  .timer-segment {
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #badee928;
+    width: 200px;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+  
+  }
+  
+  .time {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .label {
+    color: gold;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 26px;
+  }
