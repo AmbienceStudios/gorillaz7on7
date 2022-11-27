@@ -6,6 +6,12 @@ import { Footer, Navbar } from '../components';
 // eslint-disable-next-line import/named
 import { TryoutsView } from '../sections';
 
+  <>
+    <title>Gorillaz University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+  </>;
+
 const Tryouts = () => (
   <div className="bg-black overflow-hidden">
     <Navbar />
