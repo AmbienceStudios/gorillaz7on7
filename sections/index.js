@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import Hero from './Hero';
 import About from './About';
 import Explore from './Explore';
@@ -8,6 +9,10 @@ import Insights from './Insights';
 import Feedback from './Feedback';
 import NIL from './NIL';
 import GearShop from './GearShop';
+import TryoutsView from './TryoutsView';
+import TutorView from './TutorView';
+import BasketballView from './BasketballView';
+import TrackView from './TrackView';
 
 export {
   Hero,
@@ -20,4 +25,8 @@ export {
   Feedback,
   NIL,
   GearShop,
+  TryoutsView,
+  TutorView,
+  BasketballView,
+  TrackView,
 };

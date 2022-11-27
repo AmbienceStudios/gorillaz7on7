@@ -1,14 +1,16 @@
+/* eslint-disable import/no-cycle */
+
 'use client';
 
 import { Footer, Navbar } from '../components';
 // eslint-disable-next-line import/named
-import { GearShop } from '../sections';
+import { TryoutsView } from '../sections';
 
 const Tryouts = () => (
   <div className="bg-black overflow-hidden">
     <Navbar />
     <div className="relative">
-      <GearShop />
+      <TryoutsView />
       <div className="gradient-03 z-0" />
     </div>
     <div className="relative">
