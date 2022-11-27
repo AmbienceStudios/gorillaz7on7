@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { motion } from 'framer-motion';
@@ -26,17 +27,17 @@ const TryoutsView = () => (
       </motion.p>
     </motion.div>
     <div className="gearContainer">
-      <div className="placeholder" />
-      <div className="placeholder" />
-      <div className="placeholder" />
-      <div className="placeholder" />
+      <img src="./f-photo1.jpg" className="placeholder" />
+      <img src="./f-photo8.jpg" className="placeholder" />
+      <img src="./f-photo7.jpg" className="placeholder" />
+      <img src="./f-photo6.jpg" className="placeholder" />
     </div>
     <div className="sectionmargin" />
     <div className="gearContainer">
-      <div className="placeholder" />
-      <div className="placeholder" />
-      <div className="placeholder" />
-      <div className="placeholder" />
+      <img src="./f-photo5.jpg" className="placeholder" />
+      <img src="./f-photo4.jpg" className="placeholder" />
+      <img src="./f-photo3.jpg" className="placeholder" />
+      <img src="./f-photo2.jpg" className="placeholder" />
     </div>
 
   </section>
