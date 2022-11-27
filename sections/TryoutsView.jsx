@@ -50,7 +50,7 @@ const TryoutsView = () => (
     <img src="./tryouts.png" className="flex m-auto" />
     <div className="sectionmargin" />
     <Countdown />
-    <p className="text-white flex m-auto justify-center text-center text-4xl pb-12 ">6U-12U From 10AM-11:30AM</p>
+    <p className="text-white flex m-auto justify-center text-center text-4xl pb-12 ">8U-12U From 10AM-11:30AM</p>
     <p className="text-white flex m-auto justify-center text-center text-4xl pb-12 ">13U-HighSchool From 11:45AM-1:45PM</p>
     <p className="text-white flex m-auto justify-center text-center text-4xl pb-12">Millennium High School</p>
 
