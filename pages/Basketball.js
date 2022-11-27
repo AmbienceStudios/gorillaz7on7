@@ -2,13 +2,13 @@
 
 import { Footer, Navbar } from '../components';
 // eslint-disable-next-line import/named
-import { GearShop } from '../sections';
+import { BasketballView } from '../sections';
 
 const Basketball = () => (
   <div className="bg-black overflow-hidden">
     <Navbar />
     <div className="relative">
-      <GearShop />
+      <BasketballView />
       <div className="gradient-03 z-0" />
     </div>
     <div className="relative">
