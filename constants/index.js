@@ -14,8 +14,8 @@ export const exploreWorlds = [
   {
     id: 'world-3',
     imgUrl: '/football.png',
-    title: '7on7 Tryouts',
-    link: '/Tryouts',
+    title: '7on7',
+    link: '/7on7',
   },
   {
     id: 'world-4',

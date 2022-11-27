@@ -17,7 +17,7 @@ const TryoutsView = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="7on7 Tryouts" textStyles="text-center font-extrabold text-3xl pb-12" />
+      <TypingText title="7on7" textStyles="text-center font-extrabold text-3xl pb-12" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
