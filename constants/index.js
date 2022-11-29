@@ -1,10 +1,16 @@
 export const exploreWorlds = [
-  {
-    id: 'world-1',
-    imgUrl: '/d3g3n.png',
-    title: 'Girlrillaz Clothing',
-    link: 'https://girlrillaz.net',
-  },
+  // {
+  //   id: 'world-1',
+  //   imgUrl: '/d3g3n.png',
+  //   title: 'Girlrillaz Clothing',
+  //   link: 'https://girlrillaz.net',
+  // },
+  // {
+  //   id: 'world-7',
+  //   imgUrl: '/d3g3n.png',
+  //   title: 'Girlrillaz Training',
+  //   link: 'https://girlrillaz.net',
+  // },
   {
     id: 'world-2',
     imgUrl: '/CoverArt.png',
@@ -34,6 +40,21 @@ export const exploreWorlds = [
     imgUrl: '/tutor.jpg',
     title: 'Tutor',
     link: '/Tutor',
+  },
+];
+
+export const girlWorlds = [
+  {
+    id: 'world-1',
+    imgUrl: '/d3g3n.png',
+    title: 'Girlrillaz Clothing',
+    link: 'https://girlrillaz.net',
+  },
+  {
+    id: 'world-7',
+    imgUrl: '/imgs/training.png',
+    title: 'Girlrillaz Training',
+    link: '/Training',
   },
 ];
 

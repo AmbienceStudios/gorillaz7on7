@@ -21,9 +21,14 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <a href="/" className="w-[200px] h-[259px] object-contain flex m-auto z-50">
-        <img src="/Logo.png" alt="logo" />
-      </a>
+      <div className="flex flex-col m-auto">
+        <a href="/" className="w-[200px] h-[259px] object-contain flex m-auto z-50">
+          <img src="/Logo.png" alt="logo" />
+        </a>
+        <a href="/" className="object-contain flex m-auto z-50 text-2xl font-bold text-white p-8">
+          HOME
+        </a>
+      </div>
       {/* <img
         src="/menu.svg"
         alt="menu"

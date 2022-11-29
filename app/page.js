@@ -1,6 +1,6 @@
 import { Footer, Navbar } from '../components';
 // eslint-disable-next-line import/named
-import { About, Explore, Feedback, Hero, Insights, NIL } from '../sections';
+import { About, Explore, Feedback, Hero, Insights, NIL, Girl } from '../sections';
 
 const Page = () => (
   <div className="bg-black overflow-hidden">
@@ -10,6 +10,7 @@ const Page = () => (
       <About />
       <div className="gradient-03 z-0" />
       <Explore />
+      <Girl />
     </div>
     <div className="relative">
       {/* <GetStarted /> */}
