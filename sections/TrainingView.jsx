@@ -63,10 +63,10 @@ const TrainingView = () => (
     </motion.div>
     <div className="gearContainer">
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <InstagramEmbed url="https://www.instagram.com/p/COiD0-6h0A7/?igshid=MDJmNzVkMjY%3D" width={328} captioned />
+      <iframe width="434" height="772" src="https://www.youtube.com/embed/V71EeP8NKoA" title="GirlRillaz Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <InstagramEmbed url="https://www.instagram.com/tv/CZhAutvB6GA/?igshid=MDJmNzVkMjY%3D" width={328} captioned />
+      <iframe width="434" height="772" src="https://www.youtube.com/embed/w9AlWsLK7KE" title="GirlRillaz Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <div className="sectionmargin" />
