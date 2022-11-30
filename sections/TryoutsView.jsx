@@ -67,7 +67,7 @@ const TryoutsView = () => (
 
       </motion.p>
     </motion.div>
-    <div className="flex flex-row justify-center ">
+    <div className="flex flex-row justify-center gap-8">
       <iframe className="" width="450" height="254" src="https://www.youtube.com/embed/qWNLFhbAy-o" title="7on7 Training" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
       <iframe className="" width="450" height="254" src="https://www.youtube.com/embed/vvWGXB1yAd4" title="7on7" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
     </div>
